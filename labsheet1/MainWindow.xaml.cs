@@ -22,7 +22,10 @@ namespace labsheet1
     {
         public MainWindow()
         {
-            InitializeComponent();
+           
         }
+
+
+
     }
 }

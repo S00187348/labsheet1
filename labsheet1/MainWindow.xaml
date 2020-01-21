@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="118,98,0,0" TextWrapping="Wrap" Text="genre" VerticalAlignment="Top" FontSize="15" Height="24" RenderTransformOrigin="0.457,0.531" Width="42">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="361.533"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <ListBox x:Name="lbxBands" HorizontalAlignment="Left" Height="185" Margin="124,142,0,0" VerticalAlignment="Top" Width="252" RenderTransformOrigin="0.593,0.558"/>
+        <ComboBox x:Name="BomboBx" HorizontalAlignment="Left" Margin="169,103,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="TxtBlock1" HorizontalAlignment="Left" Margin="138,25,0,0" TextWrapping="Wrap" Text="bands" VerticalAlignment="Top" Height="54" Width="120" RenderTransformOrigin="0.506,0.565" FontSize="23"/>
+        <TextBlock x:Name="TxtBlock2" HorizontalAlignment="Left" Margin="511,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Text="bands information" Height="29" FontSize="23"/>
+        <TextBlock x:Name="TxtBlock3" HorizontalAlignment="Left" Margin="515,78,0,0" TextWrapping="Wrap" Text="formed :" VerticalAlignment="Top" Width="100" Height="33" FontSize="23"/>
+        <TextBlock x:Name="TxtBlock4" HorizontalAlignment="Left" Margin="515,116,0,0" TextWrapping="Wrap" Text="members : " VerticalAlignment="Top" Width="113" Height="38" FontSize="22"/>
+        <TextBlock x:Name="TxtBlock5" HorizontalAlignment="Left" Margin="515,176,0,0" TextWrapping="Wrap" Text="albums" VerticalAlignment="Top" Width="83" Height="34" FontSize="24"/>
+        <ListBox x:Name="lbxAlbums" HorizontalAlignment="Left" Height="112" Margin="515,215,0,0" VerticalAlignment="Top" Width="188"/>
+        <Button x:Name="btn" Content="save" HorizontalAlignment="Left" Margin="515,346,0,0" VerticalAlignment="Top" Width="75" FontSize="24"/>
+
     </Grid>
 </Window>
