@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:labsheet1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="118,98,0,0" TextWrapping="Wrap" Text="genre" VerticalAlignment="Top" FontSize="15" Height="24" RenderTransformOrigin="0.457,0.531" Width="42">
             <TextBlock.RenderTransform>
