@@ -30,11 +30,11 @@ namespace labsheet1
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             band b1 = new band("Beatles", "John, Paul, George, Ringo", 1960);
-            band b2 = new band("Beatles", "John, Paul, George, Ringo", 1960);
-            band b3 = new band("Beatles", "John, Paul, George, Ringo", 1960);
-            band b4 = new band("Beatles", "John, Paul, George, Ringo", 1960);
-            band b5 = new band("Beatles", "John, Paul, George, Ringo", 1960);
-            band b6 = new band("Beatles", "John, Paul, George, Ringo", 1960);
+            band b2 = new band("AC/BC", "Harry, Ronny, Fred", 1980);
+            band b3 = new band("StormBorn", "Mary, Molly, Ally", 1990);
+            band b4 = new band("Big Star", "Johnny, King, Ban,", 1999);
+            band b5 = new band("Alice Cooper", "Alice Cooper", 1970);
+            band b6 = new band("Chicago Fire", "Anne, Paul", 1960);
 
             all_bands.Add(b1);
             all_bands.Add(b2);
