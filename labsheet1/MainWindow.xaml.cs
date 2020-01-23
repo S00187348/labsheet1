@@ -21,6 +21,7 @@ namespace labsheet1
     public partial class MainWindow : Window
     {
         List<band> all_bands = new List<band>();
+        List<album> all_albums = new List<album>();
 
         public MainWindow()
         {
@@ -43,7 +44,22 @@ namespace labsheet1
             all_bands.Add(b5);
             all_bands.Add(b6);
 
+            album a1 = new album("night in sky",1234,1990);
+            album a2 = new album("",1234,1990);
+            album a3 = new album("",1234,1990);
+            album a4 = new album("",1234,1990);
+            album a5 = new album("",1234,1990);
+            album a6 = new album("",1234,1990);
+
+            all_albums.Add(a1);
+            all_albums.Add(a2);
+            all_albums.Add(a3);
+            all_albums.Add(a4);
+            all_albums.Add(a5);
+            all_albums.Add(a6);
+
             lbxBands.ItemsSource = all_bands;
+            lbxAlbums.ItemsSource = all_albums;
         }
     }
 }
