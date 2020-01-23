@@ -45,11 +45,11 @@ namespace labsheet1
             all_bands.Add(b6);
 
             album a1 = new album("night in sky",1234,1990);
-            album a2 = new album("",1234,1990);
-            album a3 = new album("",1234,1990);
-            album a4 = new album("",1234,1990);
-            album a5 = new album("",1234,1990);
-            album a6 = new album("",1234,1990);
+            album a2 = new album("moon light sinata",150,1999);
+            album a3 = new album("jolene",1200,1970);
+            album a4 = new album("sweet baby james",1400,1988);
+            album a5 = new album("party in the U.S.A",1550,1963);
+            album a6 = new album("lucy in the sky with dimoands",2000,1968);
 
             all_albums.Add(a1);
             all_albums.Add(a2);
